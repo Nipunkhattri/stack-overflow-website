@@ -5,6 +5,8 @@ import dotenv from "dotenv"
 import questionroutes from "./routes/Question.js"
 import userRoutes from "./routes/user.js"
 import answerRoutes from "./routes/Answer.js"
+import path from "path"
+import {fileURLToPath} from 'url';
 
 const app = express();
 dotenv.config();
@@ -20,6 +22,10 @@ app.use("/questions",questionroutes);
 app.use("/answer",answerRoutes)
 
 const PORT = process.env.PORT||5000;
+const __filename = fileURLToPath(import.meta.url);
+
+// 👇️ "/home/john/Desktop/javascript"
+const __dirname = path.dirname(__filename);
 
 app.use(express.static(path.join(__dirname, "./Frontend/build")));
 
