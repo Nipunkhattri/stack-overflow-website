@@ -1,0 +1,26 @@
+.hme{
+    display: flex;
+    margin-left: 67px;
+}
+.chatbot{
+    position: absolute;
+    left: 892px;
+    top: 75px;
+}
+.chatbtn{
+    position: absolute;
+    top: 620px;
+    left: 520px;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color:hsl(206,100%,52%);
+    color: white;
+}
+.rsc-container{
+    right: -157px !important;
+    top: 124px !important;
+}

@@ -1,0 +1,22 @@
+.home-container-1{
+    display: flex;
+}
+.home-container-2{
+    /* border: 2px solid red; */
+    width: 1000px;
+    margin-left: 70px;
+}
+.home-container-2>p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.tags-list-container{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;   
+}
+.h11{
+    font-size: 27px;
+    font-weight: 600;
+}

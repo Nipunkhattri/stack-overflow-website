@@ -8,6 +8,7 @@ import answerRoutes from "./routes/Answer.js"
 import path from "path"
 import {fileURLToPath} from 'url';
 
+
 const app = express();
 dotenv.config();
 app.use(cors());
@@ -20,7 +21,7 @@ app.get("/",(req,res)=>{
 app.use("/user",userRoutes)
 app.use("/questions",questionroutes);
 app.use("/answer",answerRoutes)
-
+ 
 const PORT = process.env.PORT||5000;
 const __filename = fileURLToPath(import.meta.url);
 

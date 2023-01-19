@@ -1,0 +1,20 @@
+.ansnewbtn{
+    display: flex;
+    justify-content: space-between;
+}
+.butonans{
+margin-top: 22px;
+}
+.sharebtn{
+    cursor: pointer ;
+    border: none;
+}
+.anscontain>b{
+    font-size: 20px;
+}
+.answerptime{
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    /* margin-bottom: 12px; */
+}

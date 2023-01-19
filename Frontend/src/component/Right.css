@@ -1,0 +1,138 @@
+.yz{
+    height: 600px;
+    width: 25%;
+    /* border: 2px solid black; */
+    margin-left: 890px;
+    margin-top: 10px;
+}
+.y{
+    /* border: 2px solid black; */
+    border:  0.1px solid gray;
+    height: 80%;
+    /* width: 100%; */
+    /* background-color: #fdf7e2; */
+    /* background-color: #037ecb; */
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 2px 0px;
+}
+.b9{
+    font-size: 15px;
+    font-weight: 400;
+}
+.y1{
+    background-color: #037ecb;
+    /* margin: 12px; */
+    margin-top: 0px !important;
+    /* border: 2px solid black; */
+    
+}
+.y2{
+    background-color: #037ecb;
+    /* margin: 12px; */
+    /* border: 2px solid black; */
+    
+}
+.y3{
+    border-radius: 10px;
+    /* margin: 12px; */
+    background-color: #037ecb;
+    /* border: 2px solid black; */
+    
+}
+.y11{
+    /* border: 2px solid black; */
+    background-color:hsl(47,65%,84%);;
+    height: 30px;
+    /* margin-top: 10px; */
+    /* ////font-size: 12px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.r1{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.r2{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.r3{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 11px;
+}
+.y12{
+    background-color:hsl(47,83%,91%); 
+    /* border: 2px solid black; */
+    padding: 6px 5px;
+}
+.y21{
+    background-color: hsl(47,65%,84%);
+    /* border: 2px solid black; */
+    height: 25px;
+}
+.y22{
+    background-color: hsl(47,83%,91%);
+    padding: 6px 5px;
+}
+.y31{
+    background-color:hsl(47,65%,84%);
+    height: 25px;
+}
+.y32{
+    background-color: hsl(47,83%,91%);
+    padding: 6px 5px;
+}
+.m1{
+    margin-left: 49px;
+    /* margin-top: 55px; */
+}
+.m2{
+    margin-left: 17%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+}
+.m3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px
+}
+.m4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px
+}
+.z{
+    margin-top: 14px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    height: 218px;
+    border:  0.1px solid gray;
+    /* border: 3px solid #037ecb; */
+}
+.skillbtn{
+    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    /* display: flex; */
+    /* height: 40px; */
+    background-color: gainsboro;
+    font-size: 13px;
+    border: none;
+    /* width: 60px; */
+    border-radius: 3px;
+    
+}
+.tag-head{
+    height: 17px;
+    font-size: 18px;
+}

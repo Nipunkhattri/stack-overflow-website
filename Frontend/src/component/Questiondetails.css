@@ -1,0 +1,101 @@
+.quesiddetail{
+    left: 284px;
+    /* height: 600px; */
+    width: 755px;
+    position: absolute ;
+}
+.quesdet{
+    margin-bottom: 17px;
+}
+.h1{
+    font-size: 19px;
+    font-weight: 500;
+}
+.p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.questag{
+    display: flex;
+    margin-left: 12px;
+    /* margin-bottom: 15    px; */
+    /* flex-direction: column; */
+    
+}
+.tagss{
+    display: flex;
+}
+.tagss>p{
+    border-radius: 10px;
+    margin: 2px;
+    padding: 4px;
+    font-size: 13px;
+    background-color: #edeff0;
+    color: #39739d;
+}
+.questag p{
+    margin: 11px;
+
+}
+.quesvotes{
+    display: flex;
+    margin-top: 20px;
+    /* padding:12px; */
+}
+.ansheading{
+    margin-left: 12px   ;
+}
+
+.left{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-ans{
+    margin-left: 40px;
+    margin-top: 12px;
+}
+.btn-ans>button{
+    border: none;
+    cursor: pointer;
+}
+.ondatename{
+    margin-left: 40px;
+    
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding: 1px 4px;
+    margin-left: 40px;
+}
+.name1{
+    margin-left: 10px;
+}
+.post-class-btn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(206,100%,52%);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.userques{
+    display: flex;
+    justify-content: space-between;
+}
+.containnameasked{
+    text-align: center;
+    top: 47px;
+    position: absolute;
+    right: 0px;
+}
+.namecontain{
+    display: flex;
+    align-items: center;
+}

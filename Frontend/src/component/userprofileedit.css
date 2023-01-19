@@ -1,0 +1,81 @@
+.edi-profile-title-1{
+    font-size: 20px;
+}
+.edit-profile-title-2{
+    font-size: 20px;
+}
+.edit-profile-form{
+    border: 2px solid rgb(230, 197, 197);
+    height: 300px;
+    width: 500px;
+    /* margin: 10px 10px; */
+}
+
+.edit-profile-form>label>input{
+    width: 300px;
+    outline: none;
+    margin-left: 10px;
+    /* border: none; */
+    /* background-color: gainsboro; */
+
+}
+.edit-profile-form>label{
+    height: 0px;
+}
+.edit-profile-form>label>h3{
+    height: 10px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.edit-profile-form>label>p{
+    margin-left: 10px;
+    height: 10px;
+}
+.user-submit-btn{
+    margin: 15px;
+    border: none;
+    color: white;
+    background-color: cornflowerblue;
+    height: 31px;
+    border-radius: 6px;
+}
+.user-details-container{
+    display: flex;
+}
+.user-details{
+    width: 130px;
+    display: flex;
+    align-items: center;
+}
+.user-name{
+    margin-left: 4px;
+
+}
+.edit-profile{
+    margin: 10px 0px;
+    height: 30px;
+    width:100px;
+    position: absolute;
+    left: 1200px;
+    /* display: flex; */
+}
+.edit-profile1{
+    margin: 10px 0px;
+    height: 30px;
+    width:100px;
+    /* position: absolute; */
+    /* left: 1200px; */
+    background-color: rgb(138, 138, 212);
+    color: black;
+    font-size: 15px;
+    /* top: 120px; */
+    border-radius: 10px;
+    cursor: pointer;
+    /* display: flex; */
+}
+.li1{
+    margin-top: 20px;
+}
+.ul1{
+    padding-inline-start: 0px;
+}
